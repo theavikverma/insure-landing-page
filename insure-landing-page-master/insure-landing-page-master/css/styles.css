@@ -1,0 +1,191 @@
+
+ .head1{
+  font-size: 60px;
+   font-family:'DM Serif Display' ;
+   font-weight: 400;
+ }
+ h4,h3{
+  
+  font-family:'DM Serif Display' ;
+  font-weight: 900;
+
+ }
+ .head3{
+   color: white;
+ }
+
+ p{
+  font-family:'DM Serif Display' ;
+  font-weight: normal;
+ }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+  .links a {
+    display: block;
+    margin: 0 auto 13%;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .primary-btn {
+    background: transparent;
+    position: relative;
+    top: 5px;
+    right: 1px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 15px 0;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .primary-btn:hover {
+    color: white;
+    background: black;
+    border: 2px solid black;
+  }
+  .bt2 {
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+   
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 15px 0;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  
+  .bt2 :hover{
+    color: black;
+    background: white;
+    border: 2px solid white;
+  }
+
+  .footer__links {
+    margin-top: 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .footer__link {
+    margin-bottom: 5%;
+    width: 22%;
+  }
+  .links a {
+    margin: 0 auto 13% 0;
+  }
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  width: 100%;
+  text-transform: uppercase;
+  /*background-color: hsl(0, 0%, 98%);*/
+}
+
+.footer__logo-insure {
+  margin-top: 22%;
+  margin-bottom: 10%;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.footer__links h3 {
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 0;
+  color: hsl(273, 4%, 51%);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.col-6{
+  position: relative;
+  top: 100px;
+  right:20px
+  
+}
+li a.nav-btn{
+  text-decoration: none;
+}
+li a.nav-btn-:hover{
+  text-decoration: none;
+}
+
+.find{
+  background: url(../images/bg-pattern-how-we-work-desktop.svg),linear-gradient(hsl(256, 26%, 20%),hsl(256, 26%, 20%));
+  padding: 50px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  
+
+}
+
+.img2 {
+  position: relative;
+  display: block;
+}
+
+.img1 {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: -25px;
+}
+.img3{
+
+  right: 87%;
+  top: 160%;
+  position: absolute;
+  margin-top: -450px;
+  margin-right: -25px;
+
+}
+/* @media screen and (max-width:600px)
+{
+ 
+  .find{
+    align-items: center;
+  }
+
+  
+.img2 {
+  left: 0%;
+  top: 10%;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: -25px;
+}
+
+} */
+
+
+
